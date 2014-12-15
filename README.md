@@ -1,5 +1,7 @@
 # [Angular Snippets for Brackets](http://)
 
+A fork of Angular Snippets for Brackets (https://github.com/georapbox/brackets-angular-snippets) with added ngdoc snippet
+
 A collection of [Angular](https://angularjs.org/) snippets for [Brackets](http://brackets.io/) editor.
 
 ## Install
@@ -20,6 +22,29 @@ A collection of [Angular](https://angularjs.org/) snippets for [Brackets](http:/
 
 ## Snippets list
 
+- **ngdoc =>**
+```js
+"/**
+   * @ngdoc {type}
+   * @name ec.{type}:{name}
+   *
+   * @description
+   * {description}
+   *
+   * @param {param} {param description}.
+   * @param {param} {param descriptoion}
+   * @returns {param} The returned param
+   * @example
+   <example module=\"ec.{module}\">
+     <file name=\"index.html\">
+         <div>
+         </div>
+     </file>
+     <file name=\"script.js\">
+     </file>
+   </example>
+  */
+```
 - **ngmodule =>**
 
 ```js

@@ -57,6 +57,27 @@ define(function (require, exports, module) {
     snippets.ngservice = "service('{name}', [function () {" +
         "\n\n" +
         "}])";
+        
+    snippets.ngdoc = "/**\n"+
+        " * @ngdoc {type}\n"+
+        " * @name ec.{type}:{name}\n"+
+        " *\n"+
+        " * @description\n"+
+        " * {description}\n"+
+        " *\n"+
+        " * @param {param} {param description}.\n"+
+        " * @param {param} {param descriptoion}\n"+
+        " * @returns {param} The returned param\n"+
+        " * @example\n"+
+        " <example module=\"ec.{module}\">\n"+
+        "   <file name=\"index.html\">\n"+
+        "       <div>\n"+
+        "       </div>\n"+
+        "   </file>\n"+
+        "   <file name=\"script.js\">\n"+
+        "   </file>\n"+
+        " </example>\n"+
+        "*/\n\n"
     
     /**
      * Creates a custom directive snippet with options.
